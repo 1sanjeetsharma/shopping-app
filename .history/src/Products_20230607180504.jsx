@@ -36,7 +36,7 @@ const Products = () => {
   ];
   useEffect(() => {
     axios
-      .get("https://fakestoreapi.com/products")
+      .get("https:fakestoreapi.com/products")
       .then((response) => {
         setProduct([...response.data]);
       })
